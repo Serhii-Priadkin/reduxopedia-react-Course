@@ -4,13 +4,15 @@ import Header from "./app/layout/Header";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
 import Counter from "./app/components/Counter";
+import DestinationList from "./app/components/DestinationList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="text-white">
     <Provider store={store}>
       <Header />
-      <Counter/>
+      <Counter />
+      <DestinationList />
     </Provider>
   </div>
 );
