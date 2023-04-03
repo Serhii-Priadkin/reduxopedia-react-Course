@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { destinationClicked } from "../../redux/slice/destinationSlice";
+import { destinationClicked } from "../../redux/store";
 
 function DestinationList() {
   const destinationList = useSelector(
